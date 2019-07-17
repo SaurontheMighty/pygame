@@ -112,12 +112,6 @@ highscores = open("highscores.txt","r")
 highscore=highscores.readline()
 highscore=highscore.rstrip("\n")
 print("Current High Score: ",highscore)
-check_restore=highscores.readline()
-check_restore=highscore.rstrip("\n")
-if(check_restore!="None")
-        score_restore=check_restore
-else:
-        score_restore=-5
 highscores.close()
 
 
@@ -295,8 +289,6 @@ while notdone:
             elif event.key == pygame.K_x and level2==True and pause==False and chargeval==100:#player attack
                 attac=True
                 score_init=score
-            elif event.key == pygame.K_r and score_restore!=-5:#Restore score if there is a score
-                score=score_restore
             elif event.key == pygame.K_SPACE and stop_pause==False:#spacebar to pause
                 if(pause==False):
                         pause=True
