@@ -12,7 +12,7 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("TMAGE")
 
 
-#All sprites drawn by Ashish on piskelapp.com
+#All sprites drawn on piskelapp.com
 fireball = pygame.image.load("fireball.png")
 fireball2 = pygame.image.load("fireball2.png")
 fireballimg=fireball
@@ -79,7 +79,7 @@ vob=8
 #Velocity of slomo
 vslo=9
 
-#Slomo
+#Slomo-slows down obstacles
 sx=700
 sy=600
 
