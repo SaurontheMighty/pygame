@@ -1,5 +1,4 @@
-#SaurontheMighty
-#The Most Amazing Game Ever
+#Ashish Selvaraj
 
 import pygame, random, sys
 
