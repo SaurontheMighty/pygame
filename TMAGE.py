@@ -10,47 +10,45 @@ size=(900,700)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("TMAGE")
 
-
-#All sprites drawn on piskelapp.com
-fireball = pygame.image.load("fireball.png")
-fireball2 = pygame.image.load("fireball2.png")
+#All sprites drawn by Ashish on piskelapp.com
+fireball = pygame.image.load("Art/fireball.png")
+fireball2 = pygame.image.load("Art/fireball2.png")
 fireballimg=fireball
 
 
 
 #backgrounds
-background1 = pygame.image.load("bg1.png")
-endground=pygame.image.load("bg6.png")
+background1 = pygame.image.load("Art/bg1.png")
+endground=pygame.image.load("Art/bg6.png")
 background=background1#To change backgrounds easily
 
 
 #Other images
-obstacle = pygame.image.load("obstacle.png")
-boost = pygame.image.load("boost.png")
-tbutton = pygame.image.load("button.png")#try again
-pausebutton2 = pygame.image.load("pause.png")
-pausebutton = pygame.image.load("pause_g.png")
-slomo = pygame.image.load("slomo.png")
+obstacle = pygame.image.load("Art/obstacle.png")
+boost = pygame.image.load("Art/boost.png")
+tbutton = pygame.image.load("Art/button.png")#try again
+pausebutton2 = pygame.image.load("Art/pause.png")
+pausebutton = pygame.image.load("Art/pause_g.png")
+slomo = pygame.image.load("Art/slomo.png")
 
 
 #LEVEL 2
-eviloct=pygame.image.load("eviloctopus.png")
-portal= pygame.image.load("portal.png")
-inkball= pygame.image.load("inkball.png")
-fcharge= pygame.image.load("fcharge.png")
-hcharge= pygame.image.load("hcharge.png")
-zcharge= pygame.image.load("zcharge.png")
-fhealth= pygame.image.load("fhealth.png")
-hhealth= pygame.image.load("hhealth.png")
-zhealth= pygame.image.load("zhealth.png")#z for zero
-fehealth= pygame.image.load("fehealth.png")#f for full
-tehealth= pygame.image.load("tehealth.png")#t for three fourths
-hehealth= pygame.image.load("hehealth.png")#h for half
-qehealth= pygame.image.load("qehealth.png")
-blast= pygame.image.load("fireblast.png")
-sound = pygame.image.load("sound.png")
-mute = pygame.image.load("mute.png")
-
+eviloct=pygame.image.load("Art/eviloctopus.png")
+portal= pygame.image.load("Art/portal.png")
+inkball= pygame.image.load("Art/inkball.png")
+fcharge= pygame.image.load("Art/fcharge.png")
+hcharge= pygame.image.load("Art/hcharge.png")
+zcharge= pygame.image.load("Art/zcharge.png")
+fhealth= pygame.image.load("Art/fhealth.png")
+hhealth= pygame.image.load("Art/hhealth.png")
+zhealth= pygame.image.load("Art/zhealth.png")#z for zero
+fehealth= pygame.image.load("Art/fehealth.png")#f for full
+tehealth= pygame.image.load("Art/tehealth.png")#t for three fourths
+hehealth= pygame.image.load("Art/hehealth.png")#h for half
+qehealth= pygame.image.load("Art/qehealth.png")
+blast= pygame.image.load("Art/fireblast.png")
+sound = pygame.image.load("Art/sound.png")
+mute = pygame.image.load("Art/mute.png")
 
 
 #To change images based on value instead of loading a new image
@@ -148,13 +146,12 @@ pygame.time.set_timer(pygame.USEREVENT+1,1000)#Score Count
 
 
 
-#whitenoise.mp3 created on garageband app,
+#whitenoise.mp3 created on the garageband app,
 #collision.wav taken from: https://freesound.org/people/kirbydx/sounds/175409/
 #youwon.wav taken from: http://soundbible.com/478-Cheering-3.html
 #level2.mp3 is a small part of Tchaikovsky's 1812 Overture, a version of which was downloaded from:https://archive.org/details/TCHAIKOVSKY1812Overture-Rodzinski-NEWTRANSFER
-music_list=["whitenoise.mp3","collision.wav","nhs.mp3","youwon.mp3","level2.mp3"]#list with all game music
+music_list=["Sound/whitenoise.mp3","Sound/collision.wav","Sound/nhs.mp3","Sound/youwon.mp3","Sound/level2.mp3"]#list with all game music
 #Code such as music.load and music.play() was adapted from: https://nerdparadise.com/programming/pygame/part3
-
 
 
 
