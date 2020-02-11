@@ -5,16 +5,17 @@ import pygame, random, sys
 pygame.init()
 pygame.mixer.init()
 
+
 #Initializing screen
 size=(900,700)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("TMAGE")
 
+
 #All sprites drawn by Ashish on piskelapp.com
 fireball = pygame.image.load("Art/fireball.png")
 fireball2 = pygame.image.load("Art/fireball2.png")
 fireballimg=fireball
-
 
 
 #backgrounds
@@ -100,9 +101,11 @@ chargeval=100
 edeath=False
 ehealth=100#octopus health
 
+
 #Foreground and background for Game Over Text
 REDF = (24,255,133)
 REDB = (24,255,133)
+
 
 #Finds previous high score and closes the file so that it can be reopened to write in a new high score(if achieved)
 highscores = open("highscores.txt","r")
@@ -112,12 +115,12 @@ print("Current High Score: ",highscore)
 highscores.close()
 
 
-
 #Initializing Smoooth controls    
 pressed_left=False
 pressed_right=False
 pressed_up=False
 pressed_down=False
+
 
 #Becomes YOU WON when player wins
 x='GAME OVER'
@@ -143,7 +146,6 @@ lost2=False
 
 #USEREVENT+1 occurs after every second
 pygame.time.set_timer(pygame.USEREVENT+1,1000)#Score Count
-
 
 
 #whitenoise.mp3 created on the garageband app,
