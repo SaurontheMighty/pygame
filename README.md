@@ -9,6 +9,7 @@ Arrow keys to move.
 Click the PAUSE on the screen to pause or press the space bar.
 In level 2 press X to attack the enemy
 
+
 For ease of experiencing the game:
 
 Press F to skip to 35 to see the snail/turtle on the rocket which slows down the enemies
