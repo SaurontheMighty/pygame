@@ -7,9 +7,9 @@ All code and art is mine. The soundfiles are not mine and credits are in the sou
 <br>
 
 ### Instructions:
-Arrow keys to move. 
-Click the PAUSE on the screen to pause or press the space bar.
-In level 2 press X to attack the enemy
+- Arrow keys to move.
+- Click the PAUSE on the screen to pause or press the space bar.
+- In level 2 press X to attack the enemy.
 
 <br>
 
