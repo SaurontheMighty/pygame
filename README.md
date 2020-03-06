@@ -17,4 +17,4 @@ All code and art is mine. The soundfiles are not mine and credits are in the sou
 
 Press F to skip to 35 to see the snail/turtle on the rocket which slows down the enemies
 
-Press S to skip to the second level with the boss fight(spoiler)
+Press S to skip to the second level with the (!spoiler!)boss fight
